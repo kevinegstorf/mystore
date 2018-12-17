@@ -1,31 +1,38 @@
 [
 	{
-		"id": "1",
+		"id": 1,
 		"category": "t-shirt",
 		"name": "Cool White shirt",
 		"sizes": ["s", "m", "l"],
 		"color": "White",
-		"img": "../../images/tshirt.jpeg"
+		"img": "../../images/tshirt.jpeg",
+		"stock": 100
 	},
 	{
-		"id": "2",
+		"id": 2,
 		"category": "t-shirt",
 		"name": "Cool Blue shirt",
 		"sizes": ["s", "m", "l"],
-		"color": "Blue"
+		"color": "Blue",
+		"img": "../../images/tshirt.jpeg",
+		"stock": 100
 	},
 	{
-		"id": "3",
+		"id": 3,
 		"category": "t-shirt",
 		"name": "Cool Red shirt",
 		"sizes": ["s", "m", "l"],
-		"color": "Red"
+		"color": "Red",
+		"img": "../../images/tshirt.jpeg",
+		"stock": 100
 	},
 	{
-		"id": "4",
+		"id": 4,
 		"category": "t-shirt",
 		"name": "Cool Black shirt",
 		"sizes": ["s", "m", "l"],
-		"color": "Black"
+		"color": "Black",
+		"img": "../../images/tshirt.jpeg",
+		"stock": 100
 	}
 ]
