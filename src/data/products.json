@@ -1,0 +1,31 @@
+[
+	{
+		"id": "1",
+		"category": "t-shirt",
+		"name": "Cool White shirt",
+		"sizes": ["s", "m", "l"],
+		"color": "White",
+		"img": "../../images/tshirt.jpeg"
+	},
+	{
+		"id": "2",
+		"category": "t-shirt",
+		"name": "Cool Blue shirt",
+		"sizes": ["s", "m", "l"],
+		"color": "Blue"
+	},
+	{
+		"id": "3",
+		"category": "t-shirt",
+		"name": "Cool Red shirt",
+		"sizes": ["s", "m", "l"],
+		"color": "Red"
+	},
+	{
+		"id": "4",
+		"category": "t-shirt",
+		"name": "Cool Black shirt",
+		"sizes": ["s", "m", "l"],
+		"color": "Black"
+	}
+]
