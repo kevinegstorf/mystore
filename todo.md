@@ -1,6 +1,6 @@
 # TODO
 
-- add routes
+- <del>add routes</del>
 - storybook
 - checkout
 - navbar
