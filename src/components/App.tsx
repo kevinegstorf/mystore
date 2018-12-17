@@ -1,41 +1,22 @@
-import React, { Component } from "react";
-import "./App.css";
-import { connect } from "react-redux";
-import { Product } from "../types/index";
-import ProductCard from "./ProductCard/ProductCard";
+import * as React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Product from "../pages/Product";
 
-type Props = {
-  products: Array<Product>;
-};
+const Index = () => <Home />;
+const About = () => <Product />;
+const Users = () => <h2>Users</h2>;
 
-class App extends Component<Props> {
-  render() {
-    const { products } = this.props;
-    return (
-      <div className="App">
-        <h1>Cool tshirts</h1>
+export interface AppProps {}
 
-        <ul>
-          {products.map(product => {
-            return (
-              <li key={product.id}>
-                <ProductCard name={product.name} color={product.color} />
-              </li>
-            );
-          })}
-        </ul>
+export default function App(props: AppProps) {
+  return (
+    <Router>
+      <div>
+        <Route path="/" exact component={Index} />
+        <Route path="/product/" component={Product} />
+        <Route path="/users/" component={Users} />
       </div>
-    );
-  }
+    </Router>
+  );
 }
-
-function mapStateToProps(state: any) {
-  return {
-    products: state.products
-  };
-}
-
-export default connect(
-  mapStateToProps,
-  null
-)(App);
