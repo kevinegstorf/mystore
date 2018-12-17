@@ -1,0 +1,24 @@
+# TODO
+
+- add routes
+- storybook
+- checkout
+- navbar
+- footer
+- pages
+- forms
+- backend
+  - order
+  - user
+  - product
+  - shipment
+  - email
+  - cms
+- deploy
+- cdn
+- styling/ styled components
+- tests
+- order reducer
+- payment provider
+- docker/kubernetes
+- ci
