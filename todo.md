@@ -16,7 +16,7 @@
   - cms
 - deploy
 - cdn
-- styling/ styled components
+- <del> styling/ styled components</del>
 - tests
 - order reducer
 - payment provider
